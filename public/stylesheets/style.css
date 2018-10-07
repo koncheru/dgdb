@@ -33,6 +33,10 @@ div.user-cp {
   margin-right: 50px;
   align-self: flex-end;
 }
+div.nav p,
+div.user-cp p {
+  font-size: 11pt;
+}
 div.content {
   margin-left: 20px;
   margin-right: 20px;
@@ -58,7 +62,7 @@ h1.logo:hover {
 }
 p {
   margin: 5px;
-  font: 10pt Comfortaa;
+  font: 9pt Comfortaa;
   color: #fff;
 }
 a {
