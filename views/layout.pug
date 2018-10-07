@@ -7,6 +7,18 @@ html
 
   body
     div.bg
-    h1.logo(onclick="location.href='/'") DGDB
+
+    div.container
+      div.logo
+        h1.logo(onclick="location.href='/'") DGDB
+
+      div.nav
+        p
+          | <a href='/'>Home</a>
+
+      div.user-cp
+        p
+          | <a class='variant-1' href='/login'>Log in</a> &nbsp;&nbsp;&nbsp;
+          | <a class='variant-1' href='/register'>Register</a>
 
     block content
