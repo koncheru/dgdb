@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 @import url("https://fonts.googleapis.com/css?family=Graduate");
 body {
   margin: 0;
@@ -62,7 +61,7 @@ h1.logo:hover {
 }
 p {
   margin: 5px;
-  font: 9pt Comfortaa;
+  font: 10pt 'Droid Sans', Verdana;
   color: #fff;
 }
 a {
