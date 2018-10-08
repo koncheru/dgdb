@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div.content
+    div.centered
+      form(action='/register' method='post')
+        input(type='text' name='username' placeholder='Username' maxlength='20')
+        input(type='password' name='password' placeholder='Password' maxlength='1000')
+        input(type='password' name='password-confirm' placeholder='Confirm password' maxlength='1000')
+
+        input(type='submit' value='Register')

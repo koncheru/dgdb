@@ -51,6 +51,14 @@ div.content
     background rgba(0, 150, 255, .1)
     border 1px rgba(0, 150, 255, .5) solid
 
+div.centered
+    width 500px
+    margin-left auto
+    margin-right auto
+
+    margin-top 10px
+    margin-bottom 10px
+
 
 // *------------------------------------------------------------------------* //
 // *                                                                   Text * //
@@ -86,7 +94,7 @@ h1.logo:hover
 p
     margin 5px
 
-    font 10pt 'Droid Sans', Verdana
+    font 9pt 'Droid Sans', Verdana
     color white
 
 a
@@ -99,3 +107,29 @@ a.variant-1
 a:hover
     text-decoration underline
     text-decoration-color white
+
+// *------------------------------------------------------------------------* //
+// *                                                                  Forms * //
+// *------------------------------------------------------------------------* //
+input[type='text'], input[type='password'], input[type='submit']
+    width 100%
+    padding 5px
+
+    margin-top 2px
+    margin-bottom 2px
+
+    background rgba(0, 0, 0, .3)
+    border none
+
+input[type='submit']
+    width 100px
+    margin-top 8px
+
+    border 1px rgba(0, 150, 255, .5) solid
+    cursor pointer
+
+input[type='text']:hover, input[type='password']:hover, input[type='submit']:hover
+    background rgba(0, 0, 0, .5)
+
+input[type='submit']:hover
+    background rgba(0, 50, 100, .5)

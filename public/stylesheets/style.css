@@ -42,6 +42,13 @@ div.content {
   background: rgba(0,150,255,0.1);
   border: 1px rgba(0,150,255,0.5) solid;
 }
+div.centered {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 h1.logo {
   margin: 0;
   margin-left: 20px;
@@ -61,7 +68,7 @@ h1.logo:hover {
 }
 p {
   margin: 5px;
-  font: 10pt 'Droid Sans', Verdana;
+  font: 9pt 'Droid Sans', Verdana;
   color: #fff;
 }
 a {
@@ -74,4 +81,28 @@ a.variant-1 {
 a:hover {
   text-decoration: underline;
   text-decoration-color: #fff;
+}
+input[type='text'],
+input[type='password'],
+input[type='submit'] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  background: rgba(0,0,0,0.3);
+  border: none;
+}
+input[type='submit'] {
+  width: 100px;
+  margin-top: 8px;
+  border: 1px rgba(0,150,255,0.5) solid;
+  cursor: pointer;
+}
+input[type='text']:hover,
+input[type='password']:hover,
+input[type='submit']:hover {
+  background: rgba(0,0,0,0.5);
+}
+input[type='submit']:hover {
+  background: rgba(0,50,100,0.5);
 }
