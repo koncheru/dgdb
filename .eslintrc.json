@@ -6,6 +6,7 @@
     "rules":{
         "object-curly-spacing": "off",
         "camelcase": "off",
-        "new-cap": "off"
+        "new-cap": "off",
+        "brace-style": "off"
     }
 }
